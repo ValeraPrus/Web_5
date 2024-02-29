@@ -53,4 +53,5 @@ if __name__ == "__main__":
         result_data = asyncio.run(main(sys.argv[1]))
     except IndexError:
         print('Error. Syntax: >>> py main.py 1')
+        exit()
     print(result_data)
